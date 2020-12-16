@@ -24,7 +24,7 @@ you want to ask questions or discuss development.
 ## Example
 
 First, ensure the library is installed and up to date by running
-`go get -u github.com/go-telegram-bot-api/telegram-bot-api`.
+`go get -u github.com/ligmar/go-telegram-bot-api`.
 
 This is a very simple bot that just displays any gotten updates,
 then replies it to that chat.
@@ -68,10 +68,6 @@ func main() {
 }
 ```
 
-There are more examples on the [wiki](https://github.com/go-telegram-bot-api/telegram-bot-api/wiki)
-with detailed information on how to do many differen kinds of things.
-It's a great place to get started on using keyboards, commands, or other
-kinds of reply markup.
 
 If you need to use webhooks (if you wish to run on Google App Engine),
 you may use a slightly different method.
