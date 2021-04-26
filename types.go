@@ -636,6 +636,7 @@ type InlineQueryResultVideo struct {
 	ThumbURL            string                `json:"thumb_url"`
 	Title               string                `json:"title"`
 	Caption             string                `json:"caption"`
+	ParseMode           string                `json:"parse_mode"`
 	Width               int                   `json:"video_width"`
 	Height              int                   `json:"video_height"`
 	Duration            int                   `json:"video_duration"`
