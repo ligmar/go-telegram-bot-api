@@ -2,8 +2,8 @@ package tgbotapi
 
 import (
 	"encoding/json"
-	"errors"
 	"fmt"
+	"github.com/pkg/errors"
 	"net/url"
 	"strings"
 	"time"
