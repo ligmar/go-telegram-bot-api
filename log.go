@@ -1,7 +1,7 @@
 package tgbotapi
 
 import (
-	"errors"
+	"github.com/pkg/errors"
 	stdlog "log"
 	"os"
 )
