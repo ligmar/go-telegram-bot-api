@@ -25,7 +25,7 @@ type ResponseParameters struct {
 	RetryAfter      int   `json:"retry_after"`        // optional
 }
 
-// Update is an update response, from  GetUpdates.
+// Update is an update response, from GetUpdates.
 type Update struct {
 	UpdateID           int                 `json:"update_id"`
 	Message            *Message            `json:"message"`
